@@ -6,8 +6,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('inovaBilingue', {
   "professores": [
-    { "nome": "Lucas Sodre", "email": "", "experiencia": "" , "area": "" },
-    { "nome": "Lucas Tino", "email": "", "experiencia": "" , "area": "" },
+    { "nome": "Lucas Sodre", "email": "", "experiencia": "" , "area": "", },
+    { "nome": "Lucas Tino", "email": "", "experiencia": "" , "area": "", "cargo": "Coordenador"},
     { "nome": "Sarah Sodre", "email": "", "experiencia": "" , "area": "" },
     { "nome": "Thaina Carvalho", "email": "", "experiencia": "" , "area": "" },
     { "nome": "Hesli Capellari", "email": "", "experiencia": "" , "area": "" },

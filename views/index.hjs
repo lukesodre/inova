@@ -287,10 +287,10 @@
                     </div>
                 </div>
                 <div class="item">
-                    <img  src="img/inova_comunidade/alunos.jpg"  alt="">      
+                    <a href="/inovaBilingue"><img  src="img/inova_comunidade/alunos.jpg"  alt="">      
                     <div class="legend">
                             <span>Aulas de Ingles</span>
-                        </div>    
+                        </div>    </a>
                 </div>
             </div>
         </div>

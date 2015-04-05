@@ -140,6 +140,11 @@ h2,h3,h4,p,
 
 
 
+
+.fonte-grande {
+    font-size: 1.4em;
+}
+
 @media screen and (max-width: 720px) {
 
     .legend span{font-size: 2.5em;}
@@ -246,11 +251,33 @@ h2,h3,h4,p,
         </div>
     </header>
 
-  
-
 <section>
     <div class="container">
-        <h2 class="section-heading heading-h2">#INOVA Celula</h2>
+        <h2 class="section-heading heading-h2">Você Bilíngue</h2>
+        <div class="row">
+            <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+                <h2>Descricao das vagas</h2>
+                <p class="fonte-grande">Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!
+                </p>
+                <p class="fonte-grande">
+                Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses.
+                </p>
+               <a href="#cultos" class="page-scroll btn btn-xl">Se Inscreva</a>  
+            </div>
+                <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6"> 
+                    <div class="videoWrapper">
+                        <iframe  width="560" height="315" src="https://www.youtube.com/embed/QMyE5tHm6X4" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+
+</section>
+
+<section class="bg-light-gray" >
+    <div class="container">
+        <h2 class="section-heading heading-h2">Professores</h2>
         <!-- <div id="container" class="js-masonry"   data-masonry-options='{"itemSelector": ".itemCelula" , "columnWidth": ".grid-sizer", "gutter": ".gutter-sizer" }'> -->
             <!-- <div class="grid-sizer"></div> -->
             <!-- <div class="gutter-sizer"></div> -->
@@ -271,7 +298,7 @@ h2,h3,h4,p,
                         <div class="content">
                             <div class="main">
                                 <h3 class="name">{{nome}}</h3>
-                                <!-- <p class="profession">CEO</p> -->
+                                <p class="profession">{{cargo}}</p>
                                 <!-- <h5><i class="fa fa-map-marker fa-fw text-muted"></i> Paris, France</h5> -->
                                 <!-- <h5><i class="fa fa-building-o fa-fw text-muted"></i> Creative Tim Inc. </h5> -->
                                 <h5><i class="fa fa-envelope-o fa-fw text-muted"></i>{{email}}</h5>
@@ -314,11 +341,6 @@ h2,h3,h4,p,
     </div>
 </section>
 
-    <section>
-        <div class="container">
-        <h1>TESTE</h1></div>
-        <img src="{{ tools.imgFundoInova}}" alt="">
-    </section>
 
     <!-- jQuery -->
     <script src="javascripts/jquery.js"></script>
