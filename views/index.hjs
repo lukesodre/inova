@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Igreja Nova Dimensão</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="stylesheets/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style type="text/css">
+
+
+.gutter-sizer {width: 0px;}
+
+.item {
+    width: 40%;
+    /*float: left;*/
+    margin-bottom: 0.3%;
+
+
+}
+
+.item.w2 {
+    width: 40%;
+}
+
+
+.grid-sizer { width: 40.3%}
+
+.container-mod {
+      display: block;
+  margin-left: 11%;
+  margin-right: auto;
+  width: 90%;
+}
+.item img { width: 100% }
+
+.legend {
+    /*opacity: 0.5;*/
+    top:45%;
+    /*left: 1%;*/
+    color: white;
+    /*position: absolute;*/
+        left: 0;
+    position:absolute;
+    text-align:center;
+    width: 100%
+
+
+}
+@font-face {
+    font-family: customFont;
+    src: url(font/font2.ttf);
+}
+
+.section-heading{
+    font-family: customFont;
+    
+}
+
+#description-text h4{
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 2em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    /*text-transform: none;*/
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+#description-text h3{
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    /*text-transform: none;*/
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+
+.legend span{
+
+        /*font-family: 'Gotham SSm A', 'Gotham SSm B',"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+    /*line-height: 200px;    */
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.item-celula{
+    width: 13%;
+}
+
+@media screen and (max-width: 720px) {
+
+    .legend span{font-size: 2.5em;}
+  /* 10 columns for larger screens */
+    .item { width: 90%;}
+    .item.w2 { width: 90%;}
+    .grid-sizer { width: 100%; }
+}
+@media screen and (max-width: 1024px) {
+
+    .legend span{font-size: 2.5em;}
+  /* 10 columns for larger screens */
+  /*  .item { width: 90%;}
+    .item.w2 { width: 90%;}
+    .grid-sizer { width: 100%; }*/
+}
+
+/*.face-video{
+    position: absolute;
+    top:20%;
+}
+#header-container{
+    position: relative;
+
+}
+*/
+</style>
+</head>
+
+<body id="page-top" class="index">
+   
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#inovaHeader">Igreja Nova Dimensão</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#inovaIgreja">#INOVA Igreja</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#inovaComunidade">#INOVA Comunidade</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header id="inovaHeader">
+
+            <div class="container" id="header-container" >
+            <div class="intro-text" style="padding-bottom: 50px;"> 
+                <img src="{{ links.imgLogoND }}" alt="IND_Logo" style="height:auto; width:auto; max-width:200px;margin-top:20px; padding-top: 100px;">
+            </div>
+                <ul class="list-inline social-buttons" style="margin-bottom: -20px">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a>
+                    </li>
+                </ul>
+        </div>
+    </header>
+
+    <!-- #INOVA_IGREJA Section -->
+    <section id="inovaIgreja" >
+        <div class="container-mod" >
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading heading-h2">#INOVA IGREJA</h2>
+                    <!-- <h3 class="section-subheading text-muted">Nova Dimensao de Vidas</h3> -->
+                </div>
+            </div>
+            <!-- <div class="container2" class="js-masonry"  data-masonry-options='{ "itemSelector": ".item", "columnWidth": "200" }'> -->
+            <!-- <div  id="container2" class="js-masonry" > -->
+            <div id="container2"  class="js-masonry" >
+                <div class="grid-sizer"></div>
+                <div class="gutter-sizer"></div>
+                <div id="inovaTalentos" class="item">
+                    <img  src="img/inova_igreja/talentos2.jpg"  alt="Copyright Creative Commons Author: Kevin N. Murphy">      
+                    <div class="legend">
+                        <span>#INOVA Talentos</span>
+                    </div>
+                </div>
+                <div  id="portalDaCelula" class="item w2">
+                	<a href="/inovaCelula"><img   src="img/inova_igreja/celula.jpg"  alt=""> </a>     
+                    <div  class="legend" >
+                        <span >Portal da Celula</span>
+                    </div>
+                </div>         
+                <div class="item">
+                    <img  src="img/inova_igreja/musica.jpg"  alt="">      
+                    <div class="legend">
+                            <span>Musicas</span>
+                        </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- #INOVA_COMUNIDADE Section -->
+    <section id="inovaComunidade" class="bg-light-gray" >
+        <div class="container-mod" >
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <h2 class="section-heading">#INOVA COMUNIDADE</h2>
+                    <!-- <h3 class="section-subheading text-muted">Nova Dimensao de Vidas</h3> -->
+                </div>
+            </div>
+            <!-- <div class="container2" class="js-masonry"  data-masonry-options='{ "itemSelector": ".item", "columnWidth": "200" }'> -->
+            <!-- <div  id="container2" class="js-masonry" > -->
+            <div id="container3"  class="js-masonry">
+                <div class="grid-sizer"></div>
+                <div class="gutter-sizer"></div>
+                <div class="item w2">
+                    <img  src="img/inova_comunidade/violao.jpg"  alt="">      
+                    <div class="legend" >
+                        <span>Aulas de Musica</span>
+                    </div>
+                </div>         
+                <div class="item">
+                    <img  src="img/inova_comunidade/emprego.jpg"  alt="">      
+                    <div class="legend">
+                        <span>Feira de empregos</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <img  src="img/inova_comunidade/alunos.jpg"  alt="">      
+                    <div class="legend">
+                            <span>Aulas de Ingles</span>
+                        </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="/javascripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/javascripts/bootstrap.min.js"></script>
+
+    <script src="/javascripts/bootbox.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/javascripts/classie.js"></script>
+    <script src="/javascripts/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/javascripts/jqBootstrapValidation.js"></script>
+    <script src="/javascripts/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/javascripts/agency.js"></script>
+    <script src="javascripts/jquery.easing.min.js"></script>
+    <script src="javascripts/masonry.pkgd.js"></script>
+	<script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.min.js"></script>
+    <!-- // <script scr="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.2.2/masonry.pkgd.js"></script> -->
+
+<!--  -->
+
+
+  
+    
+    <script type="text/javascript">
+
+
+	    var $container = $('#container2').masonry();
+			// layout Masonry again after all images have loaded
+		$container.imagesLoaded( function() {
+	    	$container.masonry({
+	        	itemSelector: '.item',
+	        	columnWidth: $('#container2').find('.grid-sizer')[0],
+	        	gutter: $('#container2').find('.gutter-sizer')[0],
+			});
+	   	});
+	    var $container2 = $('#container3').masonry();
+			// layout Masonry again after all images have loaded
+		$container2.imagesLoaded( function() {
+	    	$container2.masonry({
+	        	itemSelector: '.item',
+	        	columnWidth: $('#container3').find('.grid-sizer')[0],
+	        	gutter: $('#container3').find('.gutter-sizer')[0],
+			});
+	   	});
+
+		
+	</script>
+
+</body>
+    
+</html>
