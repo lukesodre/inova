@@ -96,6 +96,7 @@ h2,h3,h4,p,
     padding: 10px; 
 }
 #description-text h3{
+    margin: 0px;
     font-family: customFont;
     font-weight: 300;
     font-size: 3em;
@@ -223,7 +224,7 @@ h2,h3,h4,p,
             <div class="container" id="header-container" >
             <div class="intro-text" style="padding-bottom: 50px;"> 
                     <div id="description-text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                           <h3>#INOVA CELULA
+                           <h3>#INOVA Bilíngue
                             <br>
                             <h4>Todos as descrições das pessoas são sobre a humanidade do atendimento, a pessoa pega no pulso, examina, olha com carinho. Então eu acho que vai ter outra coisa, que os médicos cubanos trouxeram pro brasil, um alto grau de humanidade.
 
@@ -262,7 +263,8 @@ h2,h3,h4,p,
                 <p class="fonte-grande">
                 Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses.
                 </p>
-               <a href="#cultos" class="page-scroll btn btn-xl">Se Inscreva</a>  
+               <a href="#cultos" class="page-scroll btn btn-xl">Se Inscreva</a> 
+               <br> 
             </div>
                 <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6"> 
                     <div class="videoWrapper">
@@ -290,10 +292,10 @@ h2,h3,h4,p,
                 <div class="card">
                     <div class="front">
                         <div class="cover">
-                            <img src="images/rotating_card_thumb2.png"/>
+                            <img src="{{ cover }}"/>
                         </div>
                         <div class="user">
-                            <img class="img-circle" src="images/rotating_card_profile3.png"/>
+                            <img class="img-circle" src="{{foto}}"/>
                         </div>
                         <div class="content">
                             <div class="main">
@@ -359,6 +361,7 @@ h2,h3,h4,p,
     <script src="javascripts/agency.js"></script>
 
 
+</script>
   
 
 </body>
