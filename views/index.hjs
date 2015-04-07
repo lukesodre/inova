@@ -226,10 +226,11 @@
         <div class="container " >
             <h2 class="section-heading">#INOVA / <span class="corND-Laranja">Acampa<span></h2>
                 <div class="center-block" style="position:relative;">
-                    <img src="/img/inova_acampa/acampaGrande.jpg"  alt="" class="imgAcampa">
-                    <div  class="legend" >
-                        <span>ACAMPA</span>
-                    </div>
+                   <a href="/inovaAcampa"> <img src="/img/inova_acampa/acampaGrande.jpg"  alt="" class="imgAcampa">
+                        <div  class="legend" >
+                            <span>ACAMPA</span>
+                        </div>
+                    </a>
                 </div>
         </div>  
     </section>
