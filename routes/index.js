@@ -4,16 +4,23 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', {
-  	links: links,
-  "repo": [
-    { "name": "resque" },
-    { "name": "hub" },
-    { "name": "rip" }
-  ],
-
-});
-
+ res.locals = {'title': "lucas",
+	tabs: [
+	{tabId: "inovaIgreja",tabName: "#inova Igreja"},
+	{tabId: "inovaAcampa",tabName: "#inova Acampa"},
+	{tabId: "inovaComunidade",tabName: "#inova Comunidade"}
+	],
+	links:links},	
+   res.render(
+    'index',
+    {
+      partials:
+      {
+        header: 'partials/header',
+        // description: 'partials/description',
+      }
+    }
+  );
 });
 
 module.exports = router;

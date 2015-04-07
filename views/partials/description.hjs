@@ -1,0 +1,15 @@
+                <div class="row">
+                    <div id="description-text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                           <h3>{{pageName}}
+                            <br>
+                            <h4>{{pageDescription}}
+</h4></h3>
+                       </div>   
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div class="videoWrapper">
+    <!-- Copy & Pasted from YouTube -->
+                        <iframe  width="560" height="315" src="{{pageVideo}}" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    
+                </div>

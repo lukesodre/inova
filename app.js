@@ -9,12 +9,18 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var inovaCelula = require('./routes/inovaCelula');
 var inovaBilingue = require('./routes/inovaBilingue');
+var inovaTalentos = require('./routes/inovaTalentos');
+var inovaAcampa = require('./routes/inovaAcampa');
 
 var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hjs');
+// app.set 'layout', 'layout'       # use layout.html as the default layout 
+// app.set ('partials', {'header': 'foo'});   // define partials available to all pages 
+app.enable ('view cache');
+app.engine ('hjs', require('hogan-express'));
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
@@ -29,6 +35,8 @@ app.use('/', routes);
 app.use('/inovaCelula', inovaCelula);
 app.use('/users', users);
 app.use('/inovaBilingue', inovaBilingue);
+app.use('/inovaTalentos', inovaTalentos);
+app.use('/inovaAcampa', inovaAcampa);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

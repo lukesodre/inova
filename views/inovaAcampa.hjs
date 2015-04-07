@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Igreja Nova Dimensão</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="stylesheets/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style type="text/css">
+
+
+.gutter-sizer {width: 0px;}
+
+.item {
+    width: 40%;
+    /*float: left;*/
+    margin-bottom: 0.3%;
+
+
+}
+
+.item.w2 {
+    width: 40%;
+}
+
+
+.grid-sizer { width: 40.3%}
+
+.container-mod {
+      display: block;
+  margin-left: 11%;
+  margin-right: auto;
+  width: 90%;
+}
+.item img { width: 100% }
+
+.legend {
+    /*opacity: 0.5;*/
+    top:45%;
+    /*left: 1%;*/
+    color: white;
+    /*position: absolute;*/
+        left: 0;
+    position:absolute;
+    text-align:center;
+    width: 100%
+
+
+}
+@font-face {
+    font-family: customFont;
+    src: url(font/font2.ttf);
+}
+
+h2,h3,h4,p,
+.section-heading{
+    font-family: customFont;
+    
+}
+
+
+#description-text h4{
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 2em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    /*text-transform: none;*/
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+#description-text h3{
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    /*text-transform: none;*/
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+
+.legend span{
+
+        /*font-family: 'Gotham SSm A', 'Gotham SSm B',"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+    /*line-height: 200px;    */
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.item-celula{
+    width: 13%;
+}
+
+.fonte-grande {
+    font-size: 1.4em;
+}   
+
+@media screen and (max-width: 720px) {
+
+    .legend span{font-size: 2.5em;}
+  /* 10 columns for larger screens */
+    .item { width: 90%;}
+    .item.w2 { width: 90%;}
+    .grid-sizer { width: 100%; }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .legend span{font-size: 2.5em;}
+  /* 10 columns for larger screens */
+  /*  .item { width: 90%;}
+    .item.w2 { width: 90%;}
+    .grid-sizer { width: 100%; }*/
+}
+
+/*.face-video{
+    position: absolute;
+    top:20%;
+}
+#header-container{
+    position: relative;
+
+}
+*/
+</style>
+</head>
+
+<body id="page-top" class="index">
+    {{> header}}
+
+    <section id="acampaDivergente">
+        <div class="container">
+            <h2 class="section-heading heading-h2">Acampa Divergente</h2>
+            <div class="row">
+                <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+                    <h2>O Acampamento</h2>
+                    <p class="fonte-grande">Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!
+                    </p>
+                    <p class="fonte-grande">
+                    Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses.
+                    </p>
+                   <br> 
+                </div>
+                    <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6"> 
+                        <div class="videoWrapper">
+                            <iframe  width="560" height="315" src="https://www.youtube.com/embed/QMyE5tHm6X4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light-gray" id="faccoes">
+            <div class="container">
+                <h2 class="section-heading heading-h2">Facções</h2>
+                <div class="row">
+                    {{#faccoes}}
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="thumbnail">
+                            <img src="{{logo}}" style="max-width:70px" alt="">
+                        <div class="caption">
+                            <h3>{{nome}}</h3>
+                            <p class="fonte-grande">{{descricao}}</p>
+                        </div>
+                        </div>
+                    </div>
+                    {{/faccoes}}
+            </div>
+      </section>  
+
+        <section id="brincadeiras">
+            <div class="container">
+                <h2 class="section-heading heading-h2">Brincadeiras</h2>
+                <p class="fonte-grande">
+                    <!-- <span class=""><img src="http://www.aqualandvasto.com/wp-content/uploads/2013/03/toboga.jpg"  style="max-width:400px;" alt=""></span> -->
+                    <strong>FOTO</strong>
+                    Se hoje é o dia das crianças... Ontem eu disse: o dia da criança é o dia da mãe, dos pais, das professoras, mas também é o dia dos animais, sempre que você olha uma criança, há sempre uma figura oculta, que é um cachorro atrás. O que é algo muito importante!
+                    <br>
+                    <strong>FOTO</strong>
+                    Eu dou dinheiro pra minha filha. Eu dou dinheiro pra ela viajar, então é... é... Já vivi muito sem dinheiro, já vivi muito com dinheiro. -Jornalista: Coloca esse dinheiro na poupança que a senhora ganha R$10 mil por mês. -Dilma: O que que é R$10 mil?
+                    <br>
+                    <strong>FOTO</strong>
+                    No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.
+
+
+                </p>
+            </div>
+        </section>
+
+        <section id="acampasAnteriores">
+            <div class="container">
+                <h2 class="section-heading heading-h2">Acampas Anteriores</h2>
+                <p class="fonte-grande">
+                    <!-- <span class=""><img src="http://www.aqualandvasto.com/wp-content/uploads/2013/03/toboga.jpg"  style="max-width:400px;" alt=""></span> -->
+                    <h3>Acampa Jogos Vorazes</h3>
+                    <br>
+                   <h1>GALERIA DE FOTOS</h1>
+                    <h3>Acampa LOST</h3>
+                   <br>
+                   <h1>GALERIA DE FOTOS</h1>
+
+                </p>
+            </div>
+        </section>
+
+
+    <!-- jQuery -->
+    <script src="/javascripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/javascripts/bootstrap.min.js"></script>
+
+    <script src="/javascripts/bootbox.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/javascripts/classie.js"></script>
+    <script src="/javascripts/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/javascripts/jqBootstrapValidation.js"></script>
+    <script src="/javascripts/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/javascripts/agency.js"></script>
+    <script src="javascripts/jquery.easing.min.js"></script>
+
+
+  
+
+</body>
+    
+</html>

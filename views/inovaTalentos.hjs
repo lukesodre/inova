@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Igreja Nova Dimensão</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="stylesheets/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+    <!-- <link href="css/bootstrap.css" rel="stylesheet" /> -->
+    <link href="css/rotating-card.css" rel="stylesheet" /> 
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /> -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.javascripts/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style type="text/css">
+
+
+.gutter-sizer {width: 0px;}
+
+.itemCelula {
+    width: 24%;
+    /*float: left;*/
+    margin-bottom: 0.3%;
+
+
+}
+
+
+
+.grid-sizer { width: 25%}
+
+.container-mod {
+      display: block;
+  margin-left: 11%;
+  margin-right: auto;
+  width: 90%;
+}
+.itemCelula img { width: 100% }
+
+.legend {
+    /*opacity: 0.5;*/
+    top:45%;
+    /*left: 1%;*/
+    color: white;
+    /*position: absolute;*/
+        left: 0;
+    position:absolute;
+    text-align:center;
+    width: 100%
+
+
+}
+@font-face {
+    font-family: customFont;
+    src: url(font/font2.ttf);
+}
+
+h2,h3,h4,p,
+.section-heading{
+    font-family: customFont;
+    
+}
+
+#description-text h4{
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 2em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    /*text-transform: none;*/
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+#description-text h3{
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    /*text-transform: none;*/
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+
+.legend span{
+
+        /*font-family: 'Gotham SSm A', 'Gotham SSm B',"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+    /*line-height: 200px;    */
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.fonte-grande {
+    font-size: 1.4em;
+}
+
+@media screen and (max-width: 720px) {
+
+    .legend span{font-size: 2.5em;}
+  /* 10 columns for larger screens */
+    .itemCelula { width: 90%;}
+    .grid-sizer { width: 100%; }
+}
+@media screen and (max-width: 1024px) {
+
+    .legend span{font-size: 2.5em;}
+  /* 10 columns for larger screens */
+  /*  .item { width: 90%;}
+    .item.w2 { width: 90%;}
+    .grid-sizer { width: 100%; }*/
+}
+
+/*.face-video{
+    position: absolute;
+    top:20%;
+}
+#header-container{
+    position: relative;
+
+}
+*/
+</style>
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container" >
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="/">Igreja Nova Dimensão</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#inovaIgreja">#INOVA Igreja</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#inovaComunidade">#INOVA Comunidade</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Pastores</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header id="inovaHeader">
+
+            <div class="container" id="header-container" >
+            <div class="intro-text" style="padding-bottom: 50px;"> 
+                    <div id="description-text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                           <h3>#INOVA CELULA
+                            <br>
+                            <h4>Todos as descrições das pessoas são sobre a humanidade do atendimento, a pessoa pega no pulso, examina, olha com carinho. Então eu acho que vai ter outra coisa, que os médicos cubanos trouxeram pro brasil, um alto grau de humanidade.
+
+</h4></h3>
+                       </div>   
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <div class="videoWrapper">
+    <!-- Copy & Pasted from YouTube -->
+                        <iframe  width="560" height="315" src="https://www.youtube.com/embed/QMyE5tHm6X4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    
+                </div>
+                <img src="{{ links.imgLogoND }}" alt="IND_Logo" style="height:auto; width:auto; max-width:200px;margin-top:20px; padding-top: 20px;">
+            </div>
+                <ul class="list-inline social-buttons" style="margin-bottom: -20px">
+                    <li><a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a>
+                    </li>
+                </ul>
+        </div>
+    </header>
+
+<section>
+    <div class="container">
+        <h2 class="section-heading heading-h2">Episodios</h2>
+       
+    </div>
+    
+
+</section>
+
+<section class="bg-light-gray">
+    <div class="container">
+        <h2 class="section-heading heading-h2">Videos Recomendados</h2>
+       
+    </div>
+    
+
+</section>
+
+<section>
+    <div class="container">
+        <h2 class="section-heading heading-h2">Material Complementar</h2>
+       
+    </div>
+    
+
+</section>
+
+
+
+    <!-- jQuery -->
+    <script src="javascripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="javascripts/bootstrap.min.js"></script>
+
+    <script src="javascripts/bootbox.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="javascripts/classie.js"></script>
+    <script src="javascripts/cbpAnimatedHeader.js"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="javascripts/agency.js"></script>
+
+
+  
+
+</body>
+    
+</html>
