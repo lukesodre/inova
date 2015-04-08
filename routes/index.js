@@ -6,9 +6,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
  res.locals = {'title': "lucas",
 	tabs: [
-	{tabId: "inovaIgreja",tabName: "#inova Igreja"},
-	{tabId: "inovaAcampa",tabName: "#inova Acampa"},
-	{tabId: "inovaComunidade",tabName: "#inova Comunidade"}
+	{tabId: "#inovaIgreja",tabName: "#inova Igreja"},
+	{tabId: "#inovaAcampa",tabName: "#inova Acampa"},
+	{tabId: "#inovaComunidade",tabName: "#inova Comunidade"}
 	],
 	links:links},	
    res.render(
