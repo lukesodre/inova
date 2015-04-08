@@ -80,14 +80,17 @@
 h2,h3,h4,p,
 .section-heading{
     font-family: customFont;
+
     
 }
 
+p{text-align: justify;}
 
 #description-text h4{
     font-family: customFont;
     font-weight: 300;
     font-size: 2em;
+
     border-color: white;
     border-style: solid;
     border-width: thin;

@@ -89,6 +89,7 @@
 
 #description-text h4{
     font-family: customFont;
+    text-align: justify;
     font-weight: 300;
     font-size: 2em;
     border-color: white;
@@ -102,6 +103,7 @@
 #description-text h3{
     font-family: customFont;
     font-weight: 300;
+    text-align: justify;
     font-size: 3em;
     border-color: white;
     border-style: solid;
@@ -146,6 +148,15 @@
     width: 13%;
 }
 
+
+.corND-Laranja{
+    color:#EC8032;
+}
+
+.corND-Azul{
+    color:#189FA7;
+}
+
 @media screen and (max-width: 720px) {
 
     .legend span{font-size: 2.5em;}
@@ -185,7 +196,7 @@
             <div class="row">
                 <div class="col-lg-12 ">
                     
-                    <h2 class="section-heading heading-h2">#INOVA IGREJA</h2>
+                    <h2 class="section-heading heading-h2">#INOVA / <span class="corND-Laranja">Igreja<span></h2>
                     
 
                     <!-- <h3 class="section-subheading text-muted">Nova Dimensao de Vidas</h3> -->
@@ -224,7 +235,7 @@
     <!-- #INOVA Acampa Section -->
     <section id="inovaAcampa" class="bg-light-gray" >
         <div class="container " >
-            <h2 class="section-heading">#INOVA / <span class="corND-Laranja">Acampa<span></h2>
+            <h2 class="section-heading">#INOVA / <span class="corND-Azul">Acampa<span></h2>
                 <div class="center-block" style="position:relative;">
                    <a href="/inovaAcampa"> <img src="/img/inova_acampa/acampaGrande.jpg"  alt="" class="imgAcampa">
                         <div  class="legend" >
@@ -240,7 +251,7 @@
         <div class="container-mod" >
             <div class="row">
                 <div class="col-lg-12 ">
-                    <h2 class="section-heading">#INOVA COMUNIDADE</h2>
+                    <h2 class="section-heading">#INOVA / <span class="corND-Laranja">Comunidade<span></h2>
                     <!-- <h3 class="section-subheading text-muted">Nova Dimensao de Vidas</h3> -->
                 </div>
             </div>

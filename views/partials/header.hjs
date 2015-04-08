@@ -23,7 +23,7 @@
                     </li>
                     {{#tabs}}
                     <li>
-                        <a class="page-scroll" href="#{{tabId}}">{{tabName}}</a>
+                        <a class="page-scroll" href="{{tabId}}">{{tabName}}</a>
                     </li>
                     {{/tabs}}
                 </ul>
@@ -37,9 +37,9 @@
     <header id="inovaHeader">
 
             <div class="container" id="header-container" >
-            <div class="intro-text" style="padding-bottom: 30px;"> 
+            <div class="intro-text" style="padding-bottom: 30px;padding-top: 110px;"> 
                 {{> description}}
-                <img src="{{ links.imgLogoND }}" alt="IND_Logo" style="height:auto; width:auto; max-width:200px;margin-top:20px; padding-top: 30px;">
+                <img src="{{ links.imgLogoND }}" alt="IND_Logo" style="height:auto; width:auto; max-width:200px;margin-top:5px; padding-top: 15px;">
             </div>
                 <ul class="list-inline social-buttons" style="margin-bottom: -20px">
                     <li><a href="#"><i class="fa fa-twitter"></i></a>

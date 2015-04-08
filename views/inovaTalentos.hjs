@@ -83,6 +83,8 @@ h2,h3,h4,p,
     
 }
 
+p{text-align: justify;}
+
 #description-text h4{
     font-family: customFont;
     font-weight: 300;
@@ -175,101 +177,27 @@ h2,h3,h4,p,
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container" >
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="/">Igreja Nova Dimensão</a>
-            </div>
+ {{> header}}
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#inovaIgreja">#INOVA Igreja</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#inovaComunidade">#INOVA Comunidade</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Sobre</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Pastores</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contato</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header id="inovaHeader">
-
-            <div class="container" id="header-container" >
-            <div class="intro-text" style="padding-bottom: 50px;"> 
-                    <div id="description-text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                           <h3>#INOVA CELULA
-                            <br>
-                            <h4>Todos as descrições das pessoas são sobre a humanidade do atendimento, a pessoa pega no pulso, examina, olha com carinho. Então eu acho que vai ter outra coisa, que os médicos cubanos trouxeram pro brasil, um alto grau de humanidade.
-
-</h4></h3>
-                       </div>   
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                        <div class="videoWrapper">
-    <!-- Copy & Pasted from YouTube -->
-                        <iframe  width="560" height="315" src="https://www.youtube.com/embed/QMyE5tHm6X4" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    
-                </div>
-                <img src="{{ links.imgLogoND }}" alt="IND_Logo" style="height:auto; width:auto; max-width:200px;margin-top:20px; padding-top: 20px;">
-            </div>
-                <ul class="list-inline social-buttons" style="margin-bottom: -20px">
-                    <li><a href="#"><i class="fa fa-twitter"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a>
-                    </li>
-                </ul>
-        </div>
-    </header>
-
-<section>
+<section id="episodios">
     <div class="container">
-        <h2 class="section-heading heading-h2">Episodios</h2>
+        <h2 class="section-heading heading-h2">Episódios</h2>
        
     </div>
     
 
 </section>
 
-<section class="bg-light-gray">
+<section id="videosRecomendados" class="bg-light-gray">
     <div class="container">
-        <h2 class="section-heading heading-h2">Videos Recomendados</h2>
+        <h2 class="section-heading heading-h2">Vídeos Recomendados</h2>
        
     </div>
     
 
 </section>
 
-<section>
+<section id="materialComplementar">
     <div class="container">
         <h2 class="section-heading heading-h2">Material Complementar</h2>
        
@@ -295,7 +223,7 @@ h2,h3,h4,p,
 
     <!-- Custom Theme JavaScript -->
     <script src="javascripts/agency.js"></script>
-
+    <script src="javascripts/jquery.easing.min.js"></script>
 
   
 

@@ -25,10 +25,18 @@ function getFBCover(users){
 
 var professores = {"lucas":"lukesodre","tino":"lucas.tino.18","sarah":"saahsodre","hesli":"hesli.brito","thayna":"carvalhothayna"}
 getFBCover(professores);
- 
+
 router.get('/', function(req, res, next) {
-  res.render('inovaBilingue', {
-  "professores": [
+ res.locals = {'title': "#INOVA Bilíngue",
+ 	pageName: "#INOVA Bilíngue",
+ 	pageDescription: "Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses",
+ 	pageVideo: "https://www.youtube.com/embed/DwoMgVR9eU8",
+	tabs: [
+	{tabId: "/",tabName: "#INOVA"},
+	{tabId: "#descricaoDasVagas",tabName: "Descrição Vagas"},
+	{tabId: "#professores",tabName: "Professores"},
+	],
+	  "professores": [
     { "nome": "Lucas Sodre", "email": "lucasasodre@gmail.com", "experiencia": "" , "area": "", "foto":"http://graph.facebook.com/lukesodre/picture/?type=large",
     	"cover":  fbCovers[professores['lucas']] },
     { "nome": "Lucas Tino", "email": "", "experiencia": "" , "area": "", "cargo": "Coordenador","foto":"http://graph.facebook.com/lucas.tino.18/picture/?type=large",
@@ -42,11 +50,21 @@ router.get('/', function(req, res, next) {
     { "nome": "Mais um", "email": "", "experiencia": "" , "area": "" }
 
   ],
-  links: links
+	links:links},	
+   res.render(
+    'inovaBilingue',
+    {
+      partials:
+      {
+        header: 'partials/header',
+        description: 'partials/description',
+      }
+    }
+  );
 });
 
-});
 
+ 
 module.exports = router;
 
 // router.get('/', function(req, res, next) {

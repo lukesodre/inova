@@ -6,14 +6,14 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
  res.locals = {'title': "#INOVA Acampa",
  	pageName: "#INOVA Acampa",
- 	pageDescription: "Ate o rei se alegrar, ate a noiva te encontrar, o teu filho surgira, como o sol pela manha",
+ 	pageDescription: "Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses",
  	pageVideo: "https://www.youtube.com/embed/-by1dj-7qto",
 	tabs: [
-	{tabId: "inova",tabName: "#INOVA"},
-	{tabId: "acampaDivergente",tabName: "Acampa Divergente"},
-	{tabId: "faccoes",tabName: "Facções"},
-	{tabId: "brincadeiras",tabName: "Brincadeiras"},
-	{tabId: "acampasAnteriores",tabName: "Acampa Anteriores"},
+	{tabId: "/",tabName: "#INOVA"},
+	{tabId: "#acampaDivergente",tabName: "Acampa Divergente"},
+	{tabId: "#faccoes",tabName: "Facções"},
+	{tabId: "#brincadeiras",tabName: "Brincadeiras"},
+	{tabId: "#acampasAnteriores",tabName: "Acampa Anteriores"},
 	],
 	faccoes: [
 		{nome:"Audácia",
