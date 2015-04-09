@@ -10,7 +10,8 @@ router.get('/', function(req, res, next) {
  	pageVideo: "https://www.youtube.com/embed/kmHAmCghgA4",
 	tabs: [
 	{tabId: "/",tabName: "#INOVA"},
-	{tabId: "#episodios",tabName: "Episódios"},
+	{tabId: "#regulamento",tabName: "inscrições"},
+  {tabId: "#episodios",tabName: "Episódios"},
 	{tabId: "#videosRecomendados",tabName: "Vídeos Recomendados"},
 	{tabId: "#materialComplementar",tabName: "Material Complementar"},
 	],

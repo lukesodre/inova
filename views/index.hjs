@@ -54,6 +54,7 @@
 }
 
 
+
 .grid-sizer { width: 40.3%}
 
 .container-mod {
@@ -77,6 +78,11 @@
 
 
 }
+.link-img:hover{
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
 @font-face {
     font-family: customFont;
     src: url(font/font2.ttf);
@@ -209,20 +215,20 @@
                 <div class="gutter-sizer"></div>
                 <div id="inovaTalentos" class="item">
                     <a href="{{ links.linkInovaTalentos }}">
-                        <img  src="img/inova_igreja/talentos2.jpg"  alt="Copyright Creative Commons Author: Kevin N. Murphy">      
+                        <img class="link-img"  src="img/inova_igreja/talentos2.jpg"  alt="Copyright Creative Commons Author: Kevin N. Murphy">      
                             <div class="legend">
                             <span>#INOVA Talentos</span>
                         </div>
                     </a>
                 </div>
                 <div  id="portalDaCelula" class="item w2">
-                	<a href="/inovaCelula"><img   src="img/inova_igreja/celula.jpg"  alt=""> </a>     
+                	<a href="/inovaCelula"><img class="link-img"  src="img/inova_igreja/celula.jpg"  alt=""> </a>     
                     <div  class="legend" >
                         <span >Portal da Celula</span>
                     </div>
                 </div>         
                 <div class="item">
-                    <img  src="img/inova_igreja/musica.jpg"  alt="">      
+                    <img class="link-img" src="img/inova_igreja/musica.jpg"  alt="">      
                     <div class="legend">
                             <span>Musicas</span>
                         </div>    
@@ -237,7 +243,7 @@
         <div class="container " >
             <h2 class="section-heading">#INOVA / <span class="corND-Azul">Acampa<span></h2>
                 <div class="center-block" style="position:relative;">
-                   <a href="/inovaAcampa"> <img src="/img/inova_acampa/acampaGrande.jpg"  alt="" class="imgAcampa">
+                   <a href="/inovaAcampa"> <img src="/img/inova_acampa/acampaGrande.jpg"  alt="" class="imgAcampa link-img">
                         <div  class="legend" >
                             <span>ACAMPA DIVERGENTE</span>
                         </div>
@@ -261,20 +267,20 @@
                 <div class="grid-sizer"></div>
                 <div class="gutter-sizer"></div>
                 <div class="item w2">
-                    <img  src="img/inova_comunidade/violao.jpg"  alt="">      
+                    <img  class="link-img" src="img/inova_comunidade/violao.jpg"  alt="">      
                     <div class="legend" >
                         <span>Aulas de Musica</span>
                     </div>
                 </div>         
                 <div class="item">
-                    <a href="/inovaBilingue"><img  src="img/inova_comunidade/alunos.jpg"  alt="">     
+                    <a href="/inovaBilingue"><img class="link-img"  src="img/inova_comunidade/alunos.jpg"  alt="">     
                         <div class="legend">
                             <span>Aulas de Ingles</span>
                         </div>
                     </a> 
                 </div>
                 <div class="item">
-                    <img  src="img/inova_comunidade/emprego.jpg"  alt="">      
+                    <img class="link-img" src="img/inova_comunidade/emprego.jpg"  alt="">      
                     <div class="legend">
                         <span>Feira de empregos</span>
                     </div>

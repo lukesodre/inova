@@ -18,7 +18,7 @@ router.get('/', function(req, res, next) {
 	faccoes: [
 		{nome:"Audácia",
 		logo:"http://divergenteofilme.com.br/wp-content/themes/divergente/images/faccao-audacia-01.png",
-		descricao:"É dedicada a coragem, bravura e destemor. Ela tenta lutar contra a covardia, dando a preparação e a capacidade de agir durante o medo aos seus membros.Audácia"},
+		descricao:"É dedicada a coragem, bravura e destemor. Ela tenta lutar contra a covardia, dando a preparação e a capacidade de agir durante o medo aos seus membros."},
 		{nome:"Franqueza",
 		logo:"http://divergenteofilme.com.br/wp-content/themes/divergente/images/faccao-franqueza-01.png",
 		descricao:"É dedicada à Verdade, a Justiça e a Imparcialidade. Foi formada por aqueles que culparam a duplicidade por falhas da natureza humana."},
