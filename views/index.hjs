@@ -37,7 +37,7 @@
 .gutter-sizer {width: 0px;}
 
 .item {
-    width: 40%;
+    width: 49%;
     /*float: left;*/
     margin-bottom: 0.3%;
 
@@ -45,7 +45,7 @@
 }
 
 .item.w2 {
-    width: 40%;
+    width: 49%;
 }
 
 .imgAcampa {
@@ -55,13 +55,14 @@
 
 
 
-.grid-sizer { width: 40.3%}
+.grid-sizer { width: 49.3%}
 
 .container-mod {
       display: block;
-  margin-left: 11%;
+  margin-left: auto;
+  /*padding-left: 11%;*/
   margin-right: auto;
-  width: 90%;
+  width: 100%;
 }
 .item img { width: 100% }
 
@@ -163,9 +164,15 @@
     color:#189FA7;
 }
 
+@media screen and (min-width: 1900px) {
+    /*.container{*/
+        /*width: 1470px;*/
+    }
+}
+
 @media screen and (max-width: 720px) {
 
-    .legend span{font-size: 2.5em;}
+    .legend span{font-size: 1em;}
   /* 10 columns for larger screens */
     .item { width: 90%;}
     .item.w2 { width: 90%;}
@@ -173,7 +180,10 @@
 }
 @media screen and (max-width: 1024px) {
 
-    .legend span{font-size: 2.5em;}
+    .legend span{font-size: 1.5em;}
+    .item { width:100%;}
+    .item.w2 { width: 100%;}
+    .grid-sizer { width: 100%; }
   /* 10 columns for larger screens */
   /*  .item { width: 90%;}
     .item.w2 { width: 90%;}
@@ -198,7 +208,7 @@
 
     <!-- #INOVA_IGREJA Section -->
     <section id="inovaIgreja" >
-        <div class="container-mod" >
+        <div class="container" >
             <div class="row">
                 <div class="col-lg-12 ">
                     
@@ -254,7 +264,7 @@
 
     <!-- #INOVA_COMUNIDADE Section -->
     <section id="inovaComunidade" >
-        <div class="container-mod" >
+        <div class="container" >
             <div class="row">
                 <div class="col-lg-12 ">
                     <h2 class="section-heading">#INOVA / <span class="corND-Laranja">Comunidade<span></h2>
