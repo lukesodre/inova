@@ -6,11 +6,12 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
+// var users = require('./routes/users');
 var inovaCelula = require('./routes/inovaCelula');
 var inovaBilingue = require('./routes/inovaBilingue');
 var inovaTalentos = require('./routes/inovaTalentos');
 var inovaAcampa = require('./routes/inovaAcampa');
+var regulamento = require('./routes/regulamento');
 
 var app = express();
 
@@ -33,10 +34,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/inovaCelula', inovaCelula);
-app.use('/users', users);
+// app.use('/users', users);
 app.use('/inovaBilingue', inovaBilingue);
 app.use('/inovaTalentos', inovaTalentos);
 app.use('/inovaAcampa', inovaAcampa);
+app.use('/regulamento', regulamento);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
