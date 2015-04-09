@@ -22,6 +22,7 @@ router.get('/', function(req, res, next) {
       {
         header: 'partials/header',
         description: 'partials/description',
+        regulamento: 'partials/regulamentoInovaTalentos',
       }
     }
   );

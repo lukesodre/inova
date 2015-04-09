@@ -179,6 +179,57 @@ p{text-align: justify;}
 
  {{> header}}
 
+
+<section id="regulamento">
+    <div class="container">
+        <h2 class="section-heading heading-h2">Regulamento e Inscrição</h2>
+       <p class="fonte-grande">As Inscrições já estão abertas.<br> Leia o regulamento e faça já a sua inscrição</p>
+       <a class="btn btn-xl" data-toggle="modal" href='#modalRegulamento'>Regulamento</a>
+        <div class=" modal fade" id="modalRegulamento" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" style="width: 100%;height: 100%;padding: 0;">
+                <div class="modal-content" style="overflow:scroll;height: 100%; border-radius: 0;">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Regulamento</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                {> regulamento}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-xl" data-dismiss="modal">Voltar</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal --> 
+
+
+
+        <!-- Modal de inscricao -->
+        <a class="page-scroll btn btn-xl" data-toggle="modal" href='#modalInscricao'>Inscrição</a>
+        <div class="modal fade" id="modalInscricao" >
+            <div class="modal-dialog" style="min-width: 750px;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Inscrição</h4>
+                    </div>
+                    <div class="modal-body" >
+                        <script>(function(t,e,o,n){var c,s,i;t.SMCX=t.SMCX||[],e.getElementById(n)||(c=e.getElementsByTagName(o),s=c[c.length-1],i=e.createElement(o),i.type="text/javascript",i.async=!0,i.id=n,i.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/WMxjYSFxapno4TPxbNDFckdoK9fFBVCmtc3Xlm6AEpI9i9hm3B5BnJoW3T6ANNtU.js"].join(""),s.parentNode.insertBefore(i,s))})(window,document,"script","smcx-sdk");</script>
+                    </div>
+                    <div class="modal-footer">
+                        <h2 class="fonte-grande">Preencha com cuidado <a href="#" class="page-scroll btn btn-xl" data-dismiss="modal">Voltar</a> </h2>
+
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+    </div>
+</section>
 <section id="episodios">
     <div class="container">
         <h2 class="section-heading heading-h2">Episódios</h2>
@@ -191,7 +242,6 @@ p{text-align: justify;}
 <section id="videosRecomendados" class="bg-light-gray">
     <div class="container">
         <h2 class="section-heading heading-h2">Vídeos Recomendados</h2>
-       
     </div>
     
 
@@ -225,8 +275,32 @@ p{text-align: justify;}
     <script src="javascripts/agency.js"></script>
     <script src="javascripts/jquery.easing.min.js"></script>
 
-  
+    <!-- BootBox -->
+    <script scr="javascripts/bootbox.min.js"></script>
 
+    <script>
+
+    $("#buttonRegulamento").click(function(){
+                bootbox.dialog({
+                title: "This is a form in a modal.",
+                message: 'Lucas ',
+                buttons: {
+                    success: {
+                        label: "Save",
+                        className: "btn-success",
+                        callback: function () {
+                            var name = $('#name').val();
+                            var answer = $("input[name='awesomeness']:checked").val()
+                            Example.show("Hello " + name + ". You've chosen <b>" + answer + "</b>");
+                        }
+                    }
+                }
+            }
+        );
+    });
+</script>
+
+<script>(function(e,t,n,o){var s,c,a;e.SMCX=e.SMCX||[],t.getElementById(o)||(s=t.getElementsByTagName(n),c=s[s.length-1],a=t.createElement(n),a.type="text/javascript",a.async=!0,a.id=o,a.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/KwfBf_2FKy3xyaJJYeHhWOvvn4gvun2G6oDUyqixaOf3hvp67n_2Fk7hasgFp6FLf2ac.js"].join(""),c.parentNode.insertBefore(a,c))})(window,document,"script","smcx-sdk");</script>
 </body>
     
 </html>
