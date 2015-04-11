@@ -205,6 +205,14 @@ vertical-align: bottom;
 }
 
 
+.divider{
+    position:absolute;
+    right: 0%;
+    top:10%;
+    bottom:10%;
+    border-left:1px solid #A8ADB3;
+}
+
 .fonte-grande {
     font-size: 1.4em;
 }
@@ -250,6 +258,7 @@ vertical-align: bottom;
         <div class="row" id="player-header">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                 <img id="player-foto" src="images/rotating_card_profile.png" alt="">
+                <div class="divider"></div>
             </div>
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="player-header-musica">
                 <div class="audio-player">
@@ -258,7 +267,7 @@ vertical-align: bottom;
                 </div><!-- @end .audio-player -->
                 <br>
                 <div class="player-header-buttons">
-                    <a href="" class="btn btn-xl btn-default">Download Mp3</a>       
+                    <a data-bind="attr:{href: $root.musicaSelecionada().link, download:$root.musicaSelecionada().nome}" class="btn btn-xl btn-default">Download Mp3</a>       
                     <a href="" class="btn btn-xl btn-default">Letra</a>             
                     <a href="" class="btn btn-xl btn-default">Cifra</a>  
                 </div>     
@@ -342,8 +351,68 @@ $(function(){
                 this.letra = ko.observable(letra);
             }
 
-            self.musicas = ko.observableArray([new Musica("Espírito Santo","media/evidence-song.mp3","lucas"),
-                new Musica("Thalles Roberto","media/thalles_roberto_-_deus_da_minha_vida.mp3",
+            self.musicas = ko.observableArray([new Musica("Mais Perto - Davi Assafe","http://www.igrejanovadimensao.net16.net/musicas/Mais Perto - Davi.mp3",
+                            '<div id="div_letra" data-linhas="17">'+
+                            '<br> ' +
+                            '<h2>Mais Perto - Davi Assafe</h2>  ' +
+                            '<br> ' +                             
+                            '<p>Senhor o Teu amor me arrebatou, me arrebatou<br>' +
+                            'Meu desejo é estar<br> ' +
+                            'Contigo pra sempre, contigo pra sempre</p><p>Então traga-me pra mais perto<br> ' +
+                            'Leva-me mais profundo<br> ' +
+                            'Eu quero conhecer Teu coração<br> ' +
+                            'Teu amor é tão mais doce que tudo que já provei<br> ' +
+                            'Eu quero conhecer Teu coração</p><p>Oh, oh, grande é o Teu amor por mim<br> ' +
+                            'Oh, oh, grande é o Teu amor</p><p>Então traga-me pra mais perto<br> ' +
+                            'Leva-me mais profundo<br> ' +
+                            'Eu quero conhecer Teu coração<br> ' +
+                            'Teu amor é tão mais doce que tudo que já provei<br> ' +
+                            'Eu quero conhecer Teu coração</p></div>')
+
+                ,new Musica("Olha Para Mim - Melk Villar - Cover","http://www.igrejanovadimensao.net16.net/musicas/Olha Para Mim - Melk Villar.mp3",
+                            '<div id="div_letra" data-linhas="53">'+
+                            '<br> ' +
+                            '<h2>Olha Para Mim - Melk Villar - Cover</h2>  ' +
+                            '<br> ' +   
+                            '<p>Descobri que sabia andar<br> ' +
+                            'E decidi caminhar<br> ' +
+                            'Me fiz surdo para ouvir tua voz<br> ' +
+                            'Dizendo: Te amo<br> ' +
+                            'Me enchi de mim mesmo<br> ' +
+                            'Preenchi o seu lugar no meu coração<br> ' +
+                            'Com coisas banais e me tornei carnal</p><p>Enquanto tudo se esvai<br> ' +
+                            'Como tudo que é fraco cai<br> ' +
+                            'Me encontrei no chão<br> ' +
+                            'E me lembrei da tua voz<br> ' +
+                            'Dizendo: Te amo</p><p>Descobri que sabia andar<br> ' +
+                            'E decidi caminhar<br> ' +
+                            'Me fiz surdo para ouvir tua voz<br> ' +
+                            'Dizendo: Te amo<br> ' +
+                            'Me enchi de mim mesmo<br> ' +
+                            'Preenchi o seu lugar no meu coração<br> ' +
+                            'Com coisas banais e me tornei carnal</p><p>Enquanto tudo se esvai<br> ' +
+                            'Como tudo que é fraco cai<br> ' +
+                            'Me encontrei no chão<br> ' +
+                            'E me lembrei da tua voz<br> ' +
+                            'Dizendo: Te amo</p><p>Olha para mim, preciso de ti<br> ' +
+                            'Eu quero sentar em tua mesa<br> ' +
+                            'E te chamar de pai<br> ' +
+                            'Olha para mim, caminhei e me perdi<br> ' +
+                            'Olha para mim</p><p>Quero me entregar<br> ' +
+                            'Quero me envolver<br> ' +
+                            'Quero entender esse amor<br> ' +
+                            'Que na cruz ensinou</p><p>Quero me entregar<br> ' +
+                            'Quero me envolver<br> ' +
+                            'Quero entender esse amor<br> ' +
+                            'Que na cruz ensinou</p><p>Quero me entregar<br> ' +
+                            'Quero me envolver<br> ' +
+                            'Quero entender esse amor<br> ' +
+                            'Que na cruz ensinou</p><p>Olha para mim, preciso de ti<br> ' +
+                            'Eu quero sentar em tua mesa<br> ' +
+                            'E te chamar de pai<br> ' +
+                            'Olha para mim, caminhei e me perdi<br> ' +
+                            'Olha para mim.</p></div>' ),
+                new Musica("Espírito Santo","http://www.igrejanovadimensao.net16.net/musicas/Espirito Santo.mp3",
 
                            '<div id="div_letra" > ' +
                                 '<br> ' +
@@ -398,9 +467,54 @@ $(function(){
                                 'Vem inundar<br>  ' +
                                 'O meu ser</p> ' +
                            ' </div> ' +
-                    '</div> ' 
-
-                    )]);         
+                    '</div> ' ),
+                    new Musica("Aleluia (HALLELUJAH)","http://www.igrejanovadimensao.net16.net/musicas/Aleluia.mp3",
+                                '<div id="div_letra" data-linhas="37">'+
+                                '<br> ' +
+                                '<h2>ALELUIA (HALLELUJAH)</h2>  ' +
+                                '<br> ' +
+                                '<p>Pai, eu quero Te amar<br> ' + 
+                                'Tocar o Teu coração,<br> ' +
+                                'E me derramar aos Teus pés</p><p>Mais perto quero estar, Senhor<br> ' +
+                                'E Te adorar com tudo o que eu sou<br> ' +
+                                'E Te render glória e aleluia</p><p>Aleluia, aleluia<br> ' +
+                                'Aleluia, aleluia</p><p>Quando lutas vierem me derrubar<br> ' +
+                                'Firmado em Ti eu estarei<br> ' +
+                                'Pois Tu és o meu refúgio, ó Deus</p><p>E não importa onde estiver<br> ' +
+                                'No vale ou no monte, adorarei<br> ' +
+                                'A Ti eu canto glória e aleluia</p><p>Aleluia, aleluia<br> ' +
+                                'Aleluia, aleluia</p><p>Senhor, preciso do Teu olhar<br> ' +
+                                'Ouvir as batidas do Teu coração<br> ' +
+                                'Me esconder nos Teus braços, ó Pai</p><p>Toda minha alma deseja a Ti<br> ' +
+                                'Junto com os anjos cantarei<br> ' +
+                                'Tu és santo, exaltado, aleluia!</p><p>Aleluia, aleluia<br>' +
+                                'Aleluia, aleluia</p><p>A Ii, Senhor, ó todo Poderoso<br> ' +
+                                'Rendemos aleluia ao único digno a Ti, aleluia!</p><p>Aleluia, aleluia, aleluia<br> ' +
+                                'Aleluia, aleluia</p></div>'),
+                new Musica("Eterno Amor","http://www.igrejanovadimensao.net16.net/musicas/Eterno Amor.mp3",
+                    '<div id="div_letra" data-linhas="24">'+
+                                '<br> ' +
+                                '<h2>Eterno Amor</h2>  ' +
+                                '<br> ' +                    
+                                '<p>Não há ouro ou bens<br>' +
+                                'Nem riquezas também<br> ' +
+                                'Que me afastem do Teu coração<br> ' +
+                                'Nem amor por alguém<br> ' +
+                                'Poderá me afastar de Ti</p><p>Jesus<br> ' +
+                                'Incomparável amor<br> ' +
+                                'Que me resgatou<br> ' +
+                                'Mestre<br> ' +
+                                'Hoje e pra sempre<br> ' +
+                                'Tua face eu buscarei</p><p>O que eu sou<br> ' +
+                                'Coloco aos Teus pés<br> ' +
+                                'Diante da Tua glória eu me humilharei<br> ' +
+                                'Vou encontrar o que precisar<br> ' +
+                                'Em Teu eterno amor<br> ' +
+                                'Em Teu eterno amor</p><p>Abro mão do que sou<br> ' +
+                                'Meus desejos eu dou<br> ' +
+                                'Quero em tudo, Senhor, Te adorar<br> ' +
+                                'Mais que fama e poder<br> ' +
+                                'Quero Te conhecer, Senhor</p></div>')]);         
 
             //var musicasLink = ko.observableArray(["media/evidence-song.mp3","thalles_roberto_-_deus_da_minha_vida.mp3"]);
 

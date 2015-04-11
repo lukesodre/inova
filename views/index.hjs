@@ -239,10 +239,12 @@
                     </div>
                 </div>         
                 <div class="item">
-                    <img class="link-img" src="img/inova_igreja/musica.jpg"  alt="">      
-                    <div class="legend">
-                            <span>Musicas</span>
+                    <a href="/inovaMusica">
+                        <img class="link-img" src="img/inova_igreja/musica.jpg"  alt="">      
+                        <div class="legend">
+                                <span>Musicas</span>
                         </div>    
+                    </a>    
                 </div>
 
             </div>
