@@ -158,7 +158,7 @@ p{text-align: justify;}
 }
 
 .audio-player{
-    margin-top: 75px;
+    margin-top: 2#A8ADB3;5px;
 }
 
 .audio-player,
@@ -266,6 +266,7 @@ vertical-align: bottom;
                 <div class="divider"></div>
             </div>
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="player-header-musica">
+                <h2 style="color:white;">Aperte o play e aumente o P . A .</h2>
                 <div class="audio-player">
                     <h2 data-bind="text: $root.musicaSelecionada().nome"></h2>
                     <audio id="audio-player"  data-bind="attr:{src: $root.musicaSelecionada().link}" type="audio/mp3" controls="controls"></audio>

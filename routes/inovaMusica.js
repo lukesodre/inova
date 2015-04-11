@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
       partials:
       {
         header: 'partials/header',
-        // description: 'partials/description',
+        description: 'partials/descriptionSemVideo',
       }
     }
   );
