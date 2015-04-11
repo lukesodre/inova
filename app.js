@@ -12,6 +12,7 @@ var inovaBilingue = require('./routes/inovaBilingue');
 var inovaTalentos = require('./routes/inovaTalentos');
 var inovaAcampa = require('./routes/inovaAcampa');
 var regulamento = require('./routes/regulamento');
+var inovaMusica = require('./routes/inovaMusica');
 
 var app = express();
 
@@ -39,6 +40,7 @@ app.use('/inovaBilingue', inovaBilingue);
 app.use('/inovaTalentos', inovaTalentos);
 app.use('/inovaAcampa', inovaAcampa);
 app.use('/regulamento', regulamento);
+app.use('/inovaMusica', inovaMusica);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

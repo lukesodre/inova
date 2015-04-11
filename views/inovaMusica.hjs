@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Igreja Nova Dimensão</title>
+
+    <link rel="stylesheet" type="text/css" media="all" href="stylesheets/styles.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="stylesheets/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+    <!-- <link href="css/bootstrap.css" rel="stylesheet" /> -->
+    <link href="css/rotating-card.css" rel="stylesheet" /> 
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" /> -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.javascripts/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+      <link rel="shortcut icon" href="http://designshack.net/favicon.ico">
+  <link rel="icon" href="http://designshack.net/favicon.ico">
+
+
+<style type="text/css">
+
+
+.gutter-sizer {width: 0px;}
+
+.itemCelula {
+    width: 24%;
+    /*float: left;*/
+    margin-bottom: 0.3%;
+
+
+}
+
+
+
+.grid-sizer { width: 25%}
+
+.container-mod {
+      display: block;
+  margin-left: 11%;
+  margin-right: auto;
+  width: 90%;
+}
+.itemCelula img { width: 100% }
+
+.legend {
+    /*opacity: 0.5;*/
+    top:45%;
+    /*left: 1%;*/
+    color: white;
+    /*position: absolute;*/
+        left: 0;
+    position:absolute;
+    text-align:center;
+    width: 100%
+
+
+}
+@font-face {
+    font-family: customFont;
+    src: url(font/font2.ttf);
+}
+
+h2,h3,h4,p,
+.section-heading{
+    font-family: customFont;
+    
+}
+
+p{text-align: justify;}
+
+#description-text h4{
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 2em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    /*text-transform: none;*/
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+#description-text h3{
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    /*text-transform: none;*/
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+}
+
+.legend span{
+
+        /*font-family: 'Gotham SSm A', 'Gotham SSm B',"Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: customFont;
+    font-weight: 300;
+    font-size: 3em;
+    border-color: white;
+    border-style: solid;
+    border-width: thin;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px; 
+    /*line-height: 200px;    */
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+#player-bottom{
+    background-color: #EEE;
+    display: table;
+
+}
+#player-header{
+    background-color: #666;
+    /*display: table;*/
+
+}
+
+.audio-player{
+    margin-top: 75px;
+}
+
+.audio-player,
+.player-header-buttons{
+    /*float: none;*/
+    /*display: table-cell;*/
+}
+
+.player-header-musica{
+vertical-align: bottom;
+}
+
+#player-foto {
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
+
+
+#player-bottom-musicas{
+    background-color: #A8ADB3;
+    float: none;
+    display: table-cell;
+
+}
+
+#player-bottom-letra{
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+#player-lista-cell{
+    background-color: #EEE;
+}
+#player-lista-cell a{
+    text-decoration: none;
+}
+#player-lista-cell a:hover{
+    color: #EEE ;
+}
+#player-lista-cell:hover{
+    background-color: #666;
+}
+
+
+.fonte-grande {
+    font-size: 1.4em;
+}
+
+@media screen and (max-width: 720px) {
+
+    .legend span{font-size: 2.5em;}
+  /* 10 columns for larger screens */
+    .itemCelula { width: 90%;}
+    .grid-sizer { width: 100%; }
+}
+@media screen and (max-width: 1024px) {
+
+    .legend span{font-size: 2.5em;}
+  /* 10 columns for larger screens */
+  /*  .item { width: 90%;}
+    .item.w2 { width: 90%;}
+    .grid-sizer { width: 100%; }*/
+}
+
+/*.face-video{
+    position: absolute;
+    top:20%;
+}
+#header-container{
+    position: relative;
+
+}
+*/
+</style>
+</head>
+
+<body id="page-top" class="index">
+
+ {{> header}}
+
+
+
+<section id="videosRecomendados">
+    <div class="container">
+        <h2 class="section-heading heading-h2">#INOVA Player</h2>
+        <div class="inova-player">
+        <div class="row" id="player-header">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img id="player-foto" src="images/rotating_card_profile.png" alt="">
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="player-header-musica">
+                <div class="audio-player">
+                    <h2 data-bind="text: $root.musicaSelecionada().nome"></h2>
+                    <audio id="audio-player"  data-bind="attr:{src: $root.musicaSelecionada().link}" type="audio/mp3" controls="controls"></audio>
+                </div><!-- @end .audio-player -->
+                <br>
+                <div class="player-header-buttons">
+                    <a href="" class="btn btn-xl btn-default">Download Mp3</a>       
+                    <a href="" class="btn btn-xl btn-default">Letra</a>             
+                    <a href="" class="btn btn-xl btn-default">Cifra</a>  
+                </div>     
+            </div>
+        </div> 
+
+        <div class="row" id="player-bottom">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="player-bottom-musicas">
+                <br>
+                <h2>Selecione uma Musica</h2>
+                <table class="table table-striped" data-bind="foreach: musicas">
+                    <tr ><td id="player-lista-cell"><a href="#" style="display:block;" data-bind="text: nome, click: $root.musicaSelecionada" ></a></td></tr>
+                </table>   
+            </div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="player-bottom-letra">
+     
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <span data-bind="html: $root.musicaSelecionada().letra "></span>
+                    </div>
+                
+                </div>
+            </div> 
+        </div>
+    </div>
+    
+
+</section>
+
+
+
+
+    <!-- jQuery -->
+    <script src="javascripts/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="javascripts/bootstrap.min.js"></script>
+
+    <script src="javascripts/bootbox.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="javascripts/classie.js"></script>
+    <script src="javascripts/cbpAnimatedHeader.js"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="javascripts/agency.js"></script>
+    <script src="javascripts/jquery.easing.min.js"></script>
+
+    <!-- BootBox -->
+    <script scr="javascripts/bootbox.min.js"></script>
+    <script src="javascripts/knockout-3.3.0.js"></script>
+    
+
+    <!-- Audio Player -->
+      <script type="text/javascript" src="javascripts/jquery-1.10.2.min.js"></script>
+  <script type="text/javascript" src="javascripts/mediaelement-and-player.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+      $('#audio-player').mediaelementplayer({
+        alwaysShowControls: true,
+        features: ['playpause','progress','volume'],
+        audioVolume: 'horizontal',
+        audioWidth: 450,
+        audioHeight: 70,
+        iPadUseNativeControls: true,
+        iPhoneUseNativeControls: true,
+        AndroidUseNativeControls: true
+      });
+    });
+</script>
+
+<!-- Knockout JS  -->
+<script>
+        function viewModel () {
+            var self =this;
+            function Musica (nome,link,letra) {
+                this.nome = ko.observable(nome);
+                this.link = ko.observable(link);
+                this.letra = ko.observable(letra);
+            }
+
+            self.musicas = ko.observableArray([new Musica("Espírito Santo","media/evidence-song.mp3","lucas"),
+                new Musica("Thalles Roberto","media/thalles_roberto_-_deus_da_minha_vida.mp3",
+
+                           '<div id="div_letra" > ' +
+                                '<br> ' +
+                                '<h2>Espírito Santo</h2>  ' +
+                                '<br> ' +
+                                '<p >É incrível como me sinto quando<br>  ' +
+                                'Invade o meu ser<br>  ' +
+                                'Não dá pra explicar<br>  ' +
+                                'A vontade que tenho de chorar<br>  ' +
+                                'Quando o meu coração arde com<br>  ' +
+                                'Tua presença</p><p>Quando entro na casa do Pai<br>  ' +
+                                'Me esvazio de tudo<br>  ' +
+                                'Pra que Você me encha<br>  ' +
+                                'Com apenas o que é seu<br>  ' +
+                                'Nada que vem de mim quero manter</p><p>Sou ser humano<br>  ' +
+                                'Mas escolho hoje viver pelo espírito<br>  ' +
+                                'Escolho estar na casa do Pai<br>  ' +
+                                'Selando um novo tempo<br>  ' +
+                                'Vivendo um novo<br>  ' +
+                                'Eu prefiro te ouvir<br>  ' +
+                                'E cumprir o meu chamado<br>  ' +
+                                'Espírito de Deus<br>  ' +
+                                'Vem inundar<br>  ' +
+                                'O meu ser</p><p>Espírito Santo<br>  ' +
+                                'É incrível como me sinto quando<br>  ' +
+                                'Invade o meu ser<br>  ' +
+                                'Não dá pra explicar<br>  ' +
+                                'A vontade que tenho de chorar<br>  ' +
+                                'Quando o meu coração arde com<br>  ' +
+                                'Tua presença</p><p>Quando entro na casa do Pai<br>  ' +
+                                'Me esvazio de tudo, tudo<br>  ' +
+                                'Pra que você me encha<br>  ' +
+                                'Com apenas o que é seu<br>  ' +
+                                'Nada que vem de mim quero manter</p><p>Sou ser humano<br>  ' +
+                                'Mas escolho hoje viver pelo espírito<br>  ' +
+                                'Escolho estar na casa do Pai<br>  ' +
+                                'Selando um novo tempo<br>  ' +
+                                'Vivendo um novo<br>  ' +
+                                'Eu prefiro te ouvir<br>  ' +
+                                'E cumprir o meu chamado<br>  ' +
+                                'Espírito de Deus<br>  ' +
+                                'Vem inundar<br>  ' +
+                                'O meu ser</p><p>Sou ser humano<br>  ' +
+                                'Mas escolho hoje viver pelo espírito<br>  ' +
+                                'Escolho estar na casa do Pai<br>  ' +
+                                'Selando um novo tempo<br>  ' +
+                                'Viver de novo<br>  ' +
+                                'Eu prefiro te ouvir<br>  ' +
+                                'E cumprir o meu chamado<br>  ' +
+                                'Espírito de Deus<br>  ' +
+                                'Em mim inundar</p><p>O meu ser<br>  ' +
+                                'Vem inundar<br>  ' +
+                                'O meu ser</p> ' +
+                           ' </div> ' +
+                    '</div> ' 
+
+                    )]);         
+
+            //var musicasLink = ko.observableArray(["media/evidence-song.mp3","thalles_roberto_-_deus_da_minha_vida.mp3"]);
+
+            self.musicaSelecionada = ko.observable(self.musicas()[0]);
+            // alert(self.musicaSelecionada().nome());
+        }
+        ko.applyBindings(new viewModel());
+</script>
+</html>
