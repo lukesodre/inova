@@ -5,9 +5,9 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
  res.locals = {'title': "#INOVA Acampa",
-  pageName: "#INOVA Acampa",
-  pageDescription: "Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses",
-  pageVideo: "https://www.youtube.com/embed/kZTICyK3RAU",
+  pageName: "#INOVA Musica",
+  pageDescription: "Aqui voce encontra todas as musicas do INOVA, Com direito a letra, cifra e download do MP3. <br><br> Aproveite e nao esqueca de assitir aos videos do nosso canal e curtir nossa pagina no Facebook",
+  // pageVideo: "",
   tabs: [
   {tabId: "/",tabName: "#INOVA"},
   {tabId: "#acampaDivergente",tabName: "Acampa Divergente"},
@@ -22,7 +22,7 @@ router.get('/', function(req, res, next) {
       partials:
       {
         header: 'partials/header',
-        description: 'partials/description',
+        // description: 'partials/description',
       }
     }
   );

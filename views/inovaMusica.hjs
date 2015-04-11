@@ -175,6 +175,7 @@ vertical-align: bottom;
     margin: 0 auto;
     display: block;
     padding: 10px;
+    width: 245px;
 }
 
 
@@ -233,6 +234,10 @@ vertical-align: bottom;
     .grid-sizer { width: 100%; }*/
 }
 
+#cifra{
+    margin-top: 20px;
+}
+
 /*.face-video{
     position: absolute;
     top:20%;
@@ -251,13 +256,13 @@ vertical-align: bottom;
 
 
 
-<section id="videosRecomendados">
+<section id="inova-Player">
     <div class="container">
         <h2 class="section-heading heading-h2">#INOVA Player</h2>
         <div class="inova-player">
         <div class="row" id="player-header">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <img id="player-foto" src="images/rotating_card_profile.png" alt="">
+                <img  id="player-foto"  data-bind="attr:{src: $root.musicaSelecionada().foto}"  alt="">
                 <div class="divider"></div>
             </div>
             <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="player-header-musica">
@@ -267,9 +272,10 @@ vertical-align: bottom;
                 </div><!-- @end .audio-player -->
                 <br>
                 <div class="player-header-buttons">
-                    <a data-bind="attr:{href: $root.musicaSelecionada().link, download:$root.musicaSelecionada().nome}" class="btn btn-xl btn-default">Download Mp3</a>       
-                    <a href="" class="btn btn-xl btn-default">Letra</a>             
-                    <a href="" class="btn btn-xl btn-default">Cifra</a>  
+                    <a data-bind="attr:{href: $root.musicaSelecionada().link, download:$root.musicaSelecionada().nome}" class="btn btn-xl btn-default">Download Mp3</a>
+
+                    <a id="btnLetra" href="#" class="btn btn-xl btn-default">Letra</a>             
+                    <a id="btnCifra" href="#" class="btn btn-xl btn-default">Cifra</a>  
                 </div>     
             </div>
         </div> 
@@ -286,7 +292,9 @@ vertical-align: bottom;
      
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <span data-bind="html: $root.musicaSelecionada().letra "></span>
+
+                        <div id="letra" data-bind="html: $root.musicaSelecionada().letra "></div>
+                        <div id="cifra" data-bind="html: $root.musicaSelecionada().cifra "></div>
                     </div>
                 
                 </div>
@@ -345,10 +353,12 @@ $(function(){
 <script>
         function viewModel () {
             var self =this;
-            function Musica (nome,link,letra) {
+            function Musica (nome,link,letra,cifra,foto) {
                 this.nome = ko.observable(nome);
                 this.link = ko.observable(link);
                 this.letra = ko.observable(letra);
+                this.cifra = ko.observable(cifra);
+                this.foto  = ko.observable(foto)
             }
 
             self.musicas = ko.observableArray([new Musica("Mais Perto - Davi Assafe","http://www.igrejanovadimensao.net16.net/musicas/Mais Perto - Davi.mp3",
@@ -367,7 +377,38 @@ $(function(){
                             'Leva-me mais profundo<br> ' +
                             'Eu quero conhecer Teu coração<br> ' +
                             'Teu amor é tão mais doce que tudo que já provei<br> ' +
-                            'Eu quero conhecer Teu coração</p></div>')
+                            'Eu quero conhecer Teu coração</p></div>',
+                            '<pre id="ct_cifra" class="cifra-mono">Intro: <b class="_i0">G</b> <b class="_i1">A</b> <b class="_i2">Bm</b> <b class="_i3">A</b> (2x)'+
+
+                             '   <b class="_i4">Bm</b>          <b class="_i5">A</b> <br>' + 
+                            'Senhor o seu amor <br>' + 
+                            '   <b class="_i6">D/F#</b>                <b class="_i7">G</b> <br>' + 
+                            'Me arrebatou, me arrebatou <br>' + 
+                            '  <b class="_i8">Bm</b>           <b class="_i9">A</b> <br>' + 
+                            'Meu desejo é estar <br>' + 
+                            '               <b class="_i10">D/F#</b> <br>' + 
+                            'Contigo pra sempre <br>' + 
+                            '              <b class="_i11">G</b> <br>' + 
+                            'Contigo pra sempre <br>' + 
+                            '<b class="_i12">D</b>                  <b class="_i13">A/C#</b> <br>' + 
+                            'Leva-me para mais perto <br>' + 
+                            '                       <b class="_i14">Bm</b> <br>' + 
+                            'Leve à um nível mais Profundo <br>' + 
+                            '               <b class="_i15">G</b>               <b class="_i16">D</b> <br>' + 
+                            'Eu quero conhecer o Teu coração <br>' + 
+                            '                    <b class="_i17">A/C#</b> <br>' + 
+                            'Teu Amor é Bem Mais Doce <br>' + 
+                            '                      <b class="_i18">Bm</b> <br>' + 
+                            'Do Que Tudo Que Ja Provei <br>' + 
+                            '              <b class="_i19">G</b>                <b class="_i20">D</b> <br>' + 
+                            'Eu quero conhecer o Teu coração <br>' + 
+                            '<b class="_i21">G</b> <b class="_i22">D</b> <b class="_i23">A</b> <b class="_i24">Bm</b> (2x) <br>' + 
+                            '<b class="_i25">G</b>    <b class="_i26">D</b>     <b class="_i27">A</b>                <b class="_i28">Bm</b> <br>' + 
+                            'Oh oh Como é grande o Teu amor por mim <br>' + 
+                            '<b class="_i29">G</b>    <b class="_i30">D</b>     <b class="_i31">A</b>                <b class="_i32">Bm</b>' + 
+                            'Oh oh Como é grande o teu amor</pre>',
+                            "http://graph.facebook.com/davi.nonato.1/picture/?type=large" 
+                            )
 
                 ,new Musica("Olha Para Mim - Melk Villar - Cover","http://www.igrejanovadimensao.net16.net/musicas/Olha Para Mim - Melk Villar.mp3",
                             '<div id="div_letra" data-linhas="53">'+
@@ -411,7 +452,7 @@ $(function(){
                             'Eu quero sentar em tua mesa<br> ' +
                             'E te chamar de pai<br> ' +
                             'Olha para mim, caminhei e me perdi<br> ' +
-                            'Olha para mim.</p></div>' ),
+                            'Olha para mim.</p></div>',"Cifra","images/rotating_card_profile.png" ),
                 new Musica("Espírito Santo","http://www.igrejanovadimensao.net16.net/musicas/Espirito Santo.mp3",
 
                            '<div id="div_letra" > ' +
@@ -467,7 +508,7 @@ $(function(){
                                 'Vem inundar<br>  ' +
                                 'O meu ser</p> ' +
                            ' </div> ' +
-                    '</div> ' ),
+                    '</div> ' ,"Cifra","images/rotating_card_profile.png"),
                     new Musica("Aleluia (HALLELUJAH)","http://www.igrejanovadimensao.net16.net/musicas/Aleluia.mp3",
                                 '<div id="div_letra" data-linhas="37">'+
                                 '<br> ' +
@@ -490,7 +531,7 @@ $(function(){
                                 'Tu és santo, exaltado, aleluia!</p><p>Aleluia, aleluia<br>' +
                                 'Aleluia, aleluia</p><p>A Ii, Senhor, ó todo Poderoso<br> ' +
                                 'Rendemos aleluia ao único digno a Ti, aleluia!</p><p>Aleluia, aleluia, aleluia<br> ' +
-                                'Aleluia, aleluia</p></div>'),
+                                'Aleluia, aleluia</p></div>',"Cifra","images/rotating_card_profile.png"),
                 new Musica("Eterno Amor","http://www.igrejanovadimensao.net16.net/musicas/Eterno Amor.mp3",
                     '<div id="div_letra" data-linhas="24">'+
                                 '<br> ' +
@@ -514,7 +555,7 @@ $(function(){
                                 'Meus desejos eu dou<br> ' +
                                 'Quero em tudo, Senhor, Te adorar<br> ' +
                                 'Mais que fama e poder<br> ' +
-                                'Quero Te conhecer, Senhor</p></div>')]);         
+                                'Quero Te conhecer, Senhor</p></div>',"Cifra","images/rotating_card_profile.png")]);         
 
             //var musicasLink = ko.observableArray(["media/evidence-song.mp3","thalles_roberto_-_deus_da_minha_vida.mp3"]);
 
@@ -522,5 +563,29 @@ $(function(){
             // alert(self.musicaSelecionada().nome());
         }
         ko.applyBindings(new viewModel());
+</script>
+
+<script type="text/javascript">
+jQuery.fn.visible = function() {
+    return this.css('display', 'initial');
+};
+
+jQuery.fn.invisible = function() {
+    return this.css('display', 'none');
+};
+
+    
+    $('#cifra').invisible();
+    $('#btnCifra').click(function () {
+        $('#cifra').visible();
+        $('#letra').invisible();
+        return false;
+    })
+
+    $('#btnLetra').click(function () {
+        $('#cifra').invisible();
+        $('#letra').visible();
+        return false;
+    })
 </script>
 </html>
