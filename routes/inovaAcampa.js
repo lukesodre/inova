@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
 	{tabId: "#brincadeiras",tabName: "Brincadeiras"},
 	{tabId: "#acampasAnteriores",tabName: "Acampa Anteriores"},
 	],
-	faccoes: [
+	faccoes: [ 
 		{nome:"Audácia",
 		logo:"http://divergenteofilme.com.br/wp-content/themes/divergente/images/faccao-audacia-01.png",
 		descricao:"É dedicada a coragem, bravura e destemor. Ela tenta lutar contra a covardia, dando a preparação e a capacidade de agir durante o medo aos seus membros."},
