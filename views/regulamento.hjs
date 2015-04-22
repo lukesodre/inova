@@ -83,12 +83,6 @@ h2,h3,h4,p,
     
 }
 
-p {  font-family: customFont;   
-    font-size: 3em;
-    font-weight: 300;
-    text-align: justify;
-}
-
 #description-text h4{
     font-family: customFont;
     font-weight: 300;
@@ -190,173 +184,194 @@ p {  font-family: customFont;
 <section>
     <div class="container">
         <img src="img/logos/logoNDCompletoPreto.png" alt="">
-<h1 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=5 STYLE="font-size: 22pt">Regulamento
-“INOVA Talentos”</FONT></h1>
-<P ALIGN=JUSTIFY STYLE="margin-bottom: 0.03in"><BR>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=5>Regulamento
+&ldquo;INOVA Talentos&rdquo;</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
 </P>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=4 STYLE="font-size: 16pt">1.
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><A NAME="_GoBack"></A><FONT SIZE=4 STYLE="font-size: 16pt">1.
 Objetivo </FONT>
-</h2>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>1.1. Para
-desenvolver os talentos musicais, promover integração entre as
-pessoas e evangelismo, o ministério INOVA realiza e promove o evento
-“INOVA Talentos”. </FONT>
-</h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>1.2. O
-“INOVA Talentos” será realizado nos espaços da Igreja Nova
-Dimensão localizada na Av. Doutor Timóteo Penteado, 541 –
-Guarulhos. Inicialmente aos Domingos das 9 às 12 horas. Dependendo
-da programação do Evento as datas, horários e locais poderão ser
-alterados.</FONT></h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"> <FONT SIZE=3>1.3. O
-evento é destinado a aulas de música, orientação na área
-musical, a formação de novos grupos de louvor ou bandas,
-independentemente do estilo musical escolhido pelos participantes.</FONT></h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><BR><BR>
-</h3>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=5>2.
-Condições de participação </FONT>
-</2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>2.1. Os
-interessados deverão preencher a ficha de inscrição disponível no
-Link <A HREF="https://pt.surveymonkey.com/s/XDRGCGV">https://pt.surveymonkey.com/s/XDRGCGV</A>
- de 04/04/2015 até o dia 24/05/2015 as 23:45hs após esse período
-as inscrições só poderão ser realizadas na Igreja Nova Dimensão
-junto com a organização do evento e Equipe INOVA. As inscrições
-são gratuitas. Sendo opcional a doação de 1kg de alimento até a
-data das audições. O alimento arrecadado será direcionado a
-assistência social da Igreja Nova Dimensão.</FONT></h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>2.2. Na
-fase inicial do evento serão aceitos todos os inscritos que
-realizaram as audições, independentemente do nível ou qualidade
-musical, ministério ou crença.</FONT></h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>2.3 Após
-a primeira fase do Evento a Equipe INOVA avaliará cada participante,
-quanto a sua evolução musical, esforço, comprometimento,
-motivação, integração com os demais participantes e crença. Afim
-de prosseguir na segunda fase de formação de bandas, aprimoramento
-musical, apresentações, Vídeo clipes e outras atividades inerente
-a segunda fase.</FONT></h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>2.4 O
-candidato que se ausentar injustificadamente da audição será
-considerado desistente. </FONT>
-</h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>2.5 O
-candidato que tiver três ausências na primeira fase do programa
-será considerado desistente.</FONT></h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>2.6. Todo
-e qualquer eventual custo dos participantes (equipamentos musicais,
-figurinos, cenário, transporte, hospedagem, ensaios etc.) será de
-total responsabilidade dos mesmos. </FONT>
-</h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>2.7 A
-Igreja Nova Dimensão disponibilizará o equipamento de som e
-microfones para as apresentações e aulas coletivas. </FONT>
-</h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>2.8 Todas
-as apresentações, aulas e eventos serão filmados e fotografados
-pela Equipe INOVA e poderão ser exibidas na internet, em mídias
-eletrônicas, digitais e impressas. Os Integrantes ao participarem do
-INOVA Talentos estão de acordo com a cessão de direitos de imagem,
-voz e conexos. </FONT>
-</h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><BR><BR>
-</h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=5>3. Das
-Audições</FONT></P>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>3.1. As
-audições estão programadas para acontecerem no dia 26/04/2015 na
-Igreja Nova Dimensão localizada na Av.  Doutor Timóteo Penteado,
-541 – Guarulhos. Das 9:30 ás 12 horas, se necessário a data e
-horário poderão ser prorrogados e/ou alterados de acordo com a
-demanda dos candidatos e conveniência da equipe INOVA Talentos.</FONT></h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>3.2 As
-Audições serão individuais e durarão de 2 a 10 min, os
-participantes serão avaliados pelos coordenadores do INOVA talentos
-que avaliarão o nível musical do participante. </FONT>
-</h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>3.3 O
-candidato que tiver outro talento além da música e quiser
-apresenta-lo, também pode, este poderá ser direcionado pela equipe
-INOVA ao projeto mais coerente com sua vocação e talento. Porém
-isto não o impede de participar da primeira fase do programa.</FONT></h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>3.4 Os
-candidatos deverão chegar no local da audição no máximo 15
-minutos antes do início das audições</FONT></h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>3.5. Os
-candidatos deverão preparar uma música para apresentar que poderá
-ser a capela ou acompanhada de violão ou piano, aos instrumentistas
-serão disponibilizados no momento da audição, violão, baixo
-elétrico, teclado, bateria, congas e guitarra; Assim como
-amplificadores e microfones. O candidato também poderá levar o
-próprio instrumento. Qualquer outro instrumento musical não citado
-acima deverá ser providenciado pelo candidato. </FONT>
-</h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>3.6. O
-Participante é livre para escolher a musica da audição que pode
-ser tanto gospel quanto secular, instrumental, lírica, rap,
-eletrônica ou de qualquer outro gênero musical que possa existir e
-o candidato se sinta a vontade em se expressar.   </FONT>
-</h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>3.6. A
-Audição </FONT><FONT SIZE=3><B>NÃO</B></FONT><FONT SIZE=3> tem
-como objetivo excluir o participante do evento ou expô-lo a qualquer
-situação vexatória. Qualquer veiculação de imagem, voz e conexos
-do participante deverá ser autorizado verbalmente pelo participante
-no momento da audição.    </FONT>
-</h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>3.7. Após
-realizado as audições todos os participantes estarão egressos na
-primeira fase do INOVA Talentos.</FONT></h3>
-<h3 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>3.8. O
-candidato que apresentar motivo justificável para a ausência no dia
-e horário estipulado para a audição, como acidente grave,
-condições de saúde incapacitante ou morte própria; poderá a
-critério da equipe, realizar a audição em outro dia ou horário.
-Qualquer outro motivo que não seja considerado justificável, valerá
-o item 2.4 deste regulamento.    </FONT>
-</h3>
-<h1 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><BR><BR>
-</h1>
-<h1 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=5>4.
-Considerações gerais </FONT>
-</h1>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>4.1. O
-evento “INOVA Talentos” tem cunho exclusivamente cultural e a
-participação nele não está subordinada a qualquer pagamento, nem
-vinculada à aquisição ou uso de qualquer bem, direito ou serviço.
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>1.1. Para
+desenvolver os talentos musicais, promover integra&ccedil;&atilde;o
+entre as pessoas e evangelismo, o minist&eacute;rio INOVA realiza e
+promove o evento &ldquo;INOVA Talentos&rdquo;. </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>1.2. O
+&ldquo;INOVA Talentos&rdquo; ser&aacute; realizado nos espa&ccedil;os
+da Igreja Nova Dimens&atilde;o localizada na Av. Doutor Tim&oacute;teo
+Penteado, 541 &ndash; Guarulhos. Inicialmente aos Domingos das 9 &agrave;s
+12 horas. Dependendo da programa&ccedil;&atilde;o do Evento as datas,
+hor&aacute;rios e locais poder&atilde;o ser alterados.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"> <FONT SIZE=3>1.3. O
+evento &eacute; destinado a aulas de m&uacute;sica, orienta&ccedil;&atilde;o
+na &aacute;rea musical, a forma&ccedil;&atilde;o de novos grupos de
+louvor ou bandas, independentemente do estilo musical escolhido pelos
+participantes.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=5>2. Condi&ccedil;&otilde;es
+de participa&ccedil;&atilde;o </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>2.1. O
+Evento &eacute; Aberto a Todos os Brasileiros.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>2.2. Os
+interessados dever&atilde;o preencher a ficha de inscri&ccedil;&atilde;o
+dispon&iacute;vel no Link <A HREF="https://pt.surveymonkey.com/s/XDRGCGV">https://pt.surveymonkey.com/s/XDRGCGV</A>
+ de 04/04/2015 at&eacute; o dia 9/05/2015 as 23:45hs ap&oacute;s esse
+per&iacute;odo as inscri&ccedil;&otilde;es s&oacute; poder&atilde;o
+ser realizadas na Igreja Nova Dimens&atilde;o junto com a organiza&ccedil;&atilde;o
+do evento e Equipe INOVA. </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>2.3. As
+inscri&ccedil;&otilde;es s&atilde;o gratuitas. Sendo opcional a
+doa&ccedil;&atilde;o de 1kg de alimento at&eacute; a data das
+audi&ccedil;&otilde;es. O alimento arrecadado ser&aacute; direcionado
+a assist&ecirc;ncia social da Igreja Nova Dimens&atilde;o.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>2.4. Na fase
+inicial do evento ser&atilde;o aceitos todos os inscritos que
+realizaram as audi&ccedil;&otilde;es, independentemente do n&iacute;vel
+ou qualidade musical, minist&eacute;rio ou cren&ccedil;a.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>2.5. Ap&oacute;s
+a primeira fase do Evento a Equipe INOVA avaliar&aacute; cada
+participante, quanto a sua evolu&ccedil;&atilde;o musical, esfor&ccedil;o,
+comprometimento, motiva&ccedil;&atilde;o, integra&ccedil;&atilde;o
+com os demais participantes e cren&ccedil;a. Afim de prosseguir na
+segunda fase.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"> <FONT SIZE=3>2.6. O
+candidato que se ausentar injustificadamente da audi&ccedil;&atilde;o
+ser&aacute; considerado desistente. </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>2.7. O
+candidato que tiver tr&ecirc;s aus&ecirc;ncias na primeira fase do
+programa ser&aacute; considerado desistente.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>2.8. Todo e
+qualquer eventual custo dos participantes (equipamentos musicais,
+figurinos, cen&aacute;rio, transporte, hospedagem, ensaios etc.) ser&aacute;
+de total responsabilidade dos mesmos. </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>2.9. A
+Igreja Nova Dimens&atilde;o disponibilizar&aacute; o equipamento de
+som e microfones para as apresenta&ccedil;&otilde;es e aulas. </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>2.10. Todas
+as apresenta&ccedil;&otilde;es, aulas e eventos ser&atilde;o filmados
+e fotografados pela Equipe INOVA e poder&atilde;o ser exibidas na
+internet, em m&iacute;dias eletr&ocirc;nicas, digitais e impressas.
+Os Integrantes ao participarem do INOVA Talentos est&atilde;o de
+acordo com a cess&atilde;o de direitos de imagem, voz e conexos. </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=5>3. Das
+Audi&ccedil;&otilde;es</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3><B>3.1.</B></FONT><FONT SIZE=3>
+As audi&ccedil;&otilde;es est&atilde;o programadas para acontecerem
+no dia </FONT><FONT SIZE=3><B>10/05/2015</B></FONT><FONT SIZE=3> na
+Igreja Nova Dimens&atilde;o localizada na Av.  Doutor Tim&oacute;teo
+Penteado, 541 &ndash; Guarulhos. </FONT><FONT SIZE=3><B>Das 9:30 &aacute;s
+12 horas</B></FONT><FONT SIZE=3>, se necess&aacute;rio a data e
+hor&aacute;rio poder&atilde;o ser prorrogados e/ou alterados de
+acordo com a demanda dos candidatos e conveni&ecirc;ncia da equipe
+INOVA Talentos.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>3.2. As
+Audi&ccedil;&otilde;es ser&atilde;o individuais e durar&atilde;o de 2
+a 10 min, os participantes ser&atilde;o avaliados pelos coordenadores
+do INOVA talentos que avaliar&atilde;o o n&iacute;vel musical do
+participante. </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>3.3. O
+candidato que tiver outro talento al&eacute;m da m&uacute;sica e
+quiser apresenta-lo, tamb&eacute;m pode, este poder&aacute; ser
+direcionado pela equipe INOVA ao projeto mais coerente com sua
+voca&ccedil;&atilde;o e talento. Por&eacute;m isto n&atilde;o o
+impede de participar da primeira fase do programa.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>3.4. Os
+candidatos dever&atilde;o chegar no local da audi&ccedil;&atilde;o no
+m&aacute;ximo </FONT><FONT SIZE=3><B>15 minutos antes</B></FONT><FONT SIZE=3>
+do in&iacute;cio das audi&ccedil;&otilde;es</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>3.5. </FONT><FONT SIZE=3><B>Os
+candidatos dever&atilde;o preparar uma m&uacute;sica para apresentar
+que poder&aacute; ser a capela ou acompanhada de viol&atilde;o ou
+piano</B></FONT><FONT SIZE=3>, aos instrumentistas ser&atilde;o
+disponibilizados no momento da audi&ccedil;&atilde;o, viol&atilde;o,
+baixo el&eacute;trico, teclado, bateria, congas e guitarra; Assim
+como amplificadores e microfones. O candidato tamb&eacute;m poder&aacute;
+levar o pr&oacute;prio instrumento. Qualquer outro instrumento
+musical n&atilde;o citado acima dever&aacute; ser providenciado pelo
+candidato. </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>3.6. O
+</FONT><FONT SIZE=3><B>Participante &eacute; livre para escolher a
+musica da audi&ccedil;&atilde;o</B></FONT><FONT SIZE=3> que pode ser
+tanto gospel quanto secular, instrumental, l&iacute;rica, rap,
+eletr&ocirc;nica ou de qualquer outro g&ecirc;nero musical que possa
+existir e o candidato se sinta a vontade em se expressar.   </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>3.6. A
+Audi&ccedil;&atilde;o </FONT><FONT SIZE=3><B>N&Atilde;O</B></FONT><FONT SIZE=3>
+tem como objetivo excluir o participante do evento ou exp&ocirc;-lo a
+qualquer situa&ccedil;&atilde;o vexat&oacute;ria. Qualquer veicula&ccedil;&atilde;o
+de imagem, voz e conexos do participante dever&aacute; ser autorizado
+verbalmente pelo participante no momento da audi&ccedil;&atilde;o.   
 </FONT>
-</h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>4.2.
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>3.7. Ap&oacute;s
+realizado as audi&ccedil;&otilde;es todos os participantes estar&atilde;o
+egressos na primeira fase do INOVA Talentos.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>3.8. O
+candidato que apresentar motivo justific&aacute;vel para a aus&ecirc;ncia
+no dia e hor&aacute;rio estipulado para a audi&ccedil;&atilde;o, como
+acidente grave, condi&ccedil;&otilde;es de sa&uacute;de incapacitante
+ou morte pr&oacute;pria; poder&aacute; a crit&eacute;rio da equipe,
+realizar a audi&ccedil;&atilde;o em outro dia ou hor&aacute;rio.
+Qualquer outro motivo que n&atilde;o seja considerado justific&aacute;vel,
+valer&aacute; o item 2.6 deste regulamento.    </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=5>4.
+Considera&ccedil;&otilde;es gerais </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>4.1. O
+evento &ldquo;INOVA Talentos&rdquo; tem cunho exclusivamente cultural
+e a participa&ccedil;&atilde;o nele n&atilde;o est&aacute;
+subordinada a qualquer pagamento, nem vinculada &agrave; aquisi&ccedil;&atilde;o
+ou uso de qualquer bem, direito ou servi&ccedil;o. </FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>4.2.
 Eventualmente algum participante que tiver notadamente talentos e
-habilidades que vão além da música, poderá ser direcionado aos
-outros projetos do INOVA como o INOVA bilíngue, INOVA mídia, INOVA
-verde e outros projetos culturais e de artes do ministério INOVA e
-Igreja Nova Dimensão.</FONT></h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>4.3. O
-Evento está programado para Iniciar após as audições no dia
-10/05/2015 e ter seu evento de encerramento no dia 25/10/2015. </FONT>
-</h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>4.4.
-Eventualmente alguma atividade do INOVA Talentos poderá ser
-cancelada, ficando a Equipe INOVA responsável em avisar os
-participantes do cancelamento da agenda.</FONT></h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>4.5. O
-presente regulamento poderá ser alterado, sem aviso prévio. </FONT>
-</h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><A NAME="_GoBack"></A><FONT SIZE=3>4.6.
-Para esclarecer eventuais dúvidas sobre o “INOVA Talentos”, os
-participantes podem entrar em contato através do e-mail
+habilidades que v&atilde;o al&eacute;m da m&uacute;sica, poder&aacute;
+ser direcionado aos outros projetos do INOVA como o INOVA bil&iacute;ngue,
+INOVA m&iacute;dia, INOVA verde e outros projetos culturais e de
+artes do minist&eacute;rio INOVA e Igreja Nova Dimens&atilde;o.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>4.3. O
+Evento est&aacute; programado para Iniciar ap&oacute;s as audi&ccedil;&otilde;es
+no dia 17/05/2015 e ter seu evento de encerramento no dia 08/11/2015.
+</FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>4.4.
+Eventualmente alguma atividade do INOVA Talentos poder&aacute; ser
+cancelada, ficando a Equipe INOVA respons&aacute;vel em avisar os
+participantes do cancelamento da agenda.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>4.5. O
+presente regulamento poder&aacute; ser alterado, sem aviso pr&eacute;vio.
+</FONT>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>4.6. Para
+esclarecer eventuais d&uacute;vidas sobre o &ldquo;INOVA Talentos&rdquo;,
+os participantes podem entrar em contato atrav&eacute;s do e-mail
 <A HREF="mailto:inova.novadimensao@gmail.com">inova.novadimensao@gmail.com</A>
-ou pelo telefone (11) 974182899 ou pelo what’s app (11) 963538466
-Tiago ou (11) 98539-8633 Bruno</FONT></h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><FONT SIZE=3>4.7. A
-participação no INOVA Talentos implica aceitação total e
-irrestrita de todos os itens desse regulamento.</FONT></h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><BR><BR>
-</h2>
-<h2 ALIGN=JUSTIFY STYLE="margin-bottom: 0.11in"><BR><BR>
-</h2>
+ou pelo telefone (11) 974182899 ou pelo what&rsquo;s app (11)
+963538466 Tiago ou (11) 98539-8633 Bruno</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><FONT SIZE=3>4.7. A
+participa&ccedil;&atilde;o no INOVA Talentos implica aceita&ccedil;&atilde;o
+total e irrestrita de todos os itens desse regulamento.</FONT></P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=JUSTIFY STYLE="margin-bottom: 0in"><BR>
+</P>
 </div>
 </section>
 
