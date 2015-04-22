@@ -6,7 +6,12 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
  res.locals = {'title': "#INOVA Talentos",
  	pageName: "#INOVA Talentos",
- 	pageDescription: "Primeiro eu queria cumprimentar os internautas. -Oi Internautas! Depois dizer que o meio ambiente é sem dúvida nenhuma uma ameaça ao desenvolvimento sustentável. E isso significa que é uma ameaça pro futuro do nosso planeta e dos nossos países. O desemprego beira 20%, ou seja, 1 em cada 4 portugueses",
+ 	pageDescription: "As inscrições para o INOVA Talentos 2015 " + 
+                    "estão chegando ao fim.<br> Faça já sua inscrição  " +
+                    "e não fique de fora deste evento!<br> " +
+                    "As Audições estão marcadas para acontecerem " +
+                    "no dia 10/05/2015.  <br><br>" +
+                    "Confira os detalhes no nosso REGULAMENTO!",
  	pageVideo: "https://www.youtube.com/embed/kmHAmCghgA4",
 	tabs: [
 	{tabId: "/",tabName: "#INOVA"},
